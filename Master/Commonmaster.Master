@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Commonmaster.master.cs" Inherits="cms.Commonmaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <meta charset="ISO-8859-1" />
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" ></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="/css/admincss.css"/><title>Admin LogIn</title>
+        <style>
+
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      min-width: 600px;
+      margin: auto;
+      min-height: 300px;
+  }
+  </style>
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+     
+    <form id="form1" runat="server">
+   
+      <div>
+            <div class="container">
+  <div class="bd-pageheader text-xs-center text-sm-left">
+    <h1>CALL MONITORING SYSTEM </h1>
+        The Central Monitoring System, abbreviated to CMS, 
+    is a centralized telephone interception provisioning 
+    system m installed by the Centre for Development of 
+    Telematics (C-DOT), an Indian Government owned 
+    telecommunications technology development centre,
+     and operated by Telecom Enforcement Resource and 
+     Monitoring (TERM) Cellsp>      
+  </div>
+
+    </div>
+          </div>
+    
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </form>
+   
+</body>
+</html>

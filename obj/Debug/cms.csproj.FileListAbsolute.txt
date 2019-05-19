@@ -1,0 +1,7 @@
+D:\call moniraing System 7\cms\cms\bin\cms.dll.config
+D:\call moniraing System 7\cms\cms\bin\cms.dll
+D:\call moniraing System 7\cms\cms\bin\cms.pdb
+D:\call moniraing System 7\cms\cms\bin\AjaxControlToolkit.dll
+D:\call moniraing System 7\cms\cms\obj\Debug\cms.csprojResolveAssemblyReference.cache
+D:\call moniraing System 7\cms\cms\obj\Debug\cms.dll
+D:\call moniraing System 7\cms\cms\obj\Debug\cms.pdb

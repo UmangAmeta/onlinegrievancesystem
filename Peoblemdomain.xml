@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<problemdomain>
+  <Cleaning>
+    <CleaningId>101</CleaningId>
+    <CleaningName>Department</CleaningName> 
+  </Cleaning>
+<Cleaning>
+    <CleaningId>102</CleaningId>
+    <CleaningName>Hostel</CleaningName> 
+  </Cleaning>
+  <Water>
+    <WaterId>103</WaterId>
+    <WaterName>Watage</WaterName>
+  </Water>
+ <Water>
+    <WaterId>104</WaterId>
+    <WaterName>Pipeline Break</WaterName>
+  </Water>
+</problemdomain>

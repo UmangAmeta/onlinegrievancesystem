@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{554FA5F6-7FCB-4774-9AB8-73473C04EFC6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>cms</RootNamespace>
+    <AssemblyName>cms</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=15.1.4.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\umang\Documents\ASP.NET AJAX Control Toolkit\Bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Adminhome.aspx" />
+    <Content Include="Admin\Newfaculty.aspx" />
+    <Content Include="Admin\Workerregistration.aspx" />
+    <Content Include="Admin_1\Admin.aspx" />
+    <Content Include="Admin_1\Allcomplain.aspx" />
+    <Content Include="Admin_1\ComplainStatus.aspx" />
+    <Content Include="Admin_1\Newpost.aspx" />
+    <Content Include="Admin_1\viewmores.aspx" />
+    <Content Include="Commonpage.aspx" />
+    <Content Include="Complainform.aspx" />
+    <Content Include="css\admincss.css" />
+    <Content Include="email33.aspx" />
+    <Content Include="forgot.aspx" />
+    <Content Include="HtmlPage1.html" />
+    <Content Include="Peoblemdomain.xml" />
+    <Content Include="ResetPassword.aspx" />
+    <Content Include="Userfaculty\FacultyStudent.aspx" />
+    <Content Include="image\cleaning.jpg" />
+    <Content Include="image\hostel.jpg" />
+    <Content Include="image\library.jpg" />
+    <Content Include="image\mac.jpg" />
+    <Content Include="image\other.png" />
+    <Content Include="Login.aspx" />
+    <Content Include="Master\Commonmaster.Master" />
+    <Content Include="Master\Adminmaster.Master" />
+    <Content Include="Userfaculty\Newcomplain.aspx" />
+    <Content Include="Userfaculty\Viewcomplain.aspx" />
+    <Content Include="Userfaculty\Viewmore.aspx" />
+    <Content Include="WebForm1.aspx" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="image\lab.jpg" />
+    <Content Include="image\tap.jpg" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Adminhome.aspx.cs">
+      <DependentUpon>Adminhome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Adminhome.aspx.designer.cs">
+      <DependentUpon>Adminhome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Newfaculty.aspx.cs">
+      <DependentUpon>Newfaculty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Newfaculty.aspx.designer.cs">
+      <DependentUpon>Newfaculty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Workerregistration.aspx.cs">
+      <DependentUpon>Workerregistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Workerregistration.aspx.designer.cs">
+      <DependentUpon>Workerregistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_1\Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_1\Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_1\Allcomplain.aspx.cs">
+      <DependentUpon>Allcomplain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_1\Allcomplain.aspx.designer.cs">
+      <DependentUpon>Allcomplain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_1\ComplainStatus.aspx.cs">
+      <DependentUpon>ComplainStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_1\ComplainStatus.aspx.designer.cs">
+      <DependentUpon>ComplainStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_1\Newpost.aspx.cs">
+      <DependentUpon>Newpost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_1\Newpost.aspx.designer.cs">
+      <DependentUpon>Newpost.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_1\viewmores.aspx.cs">
+      <DependentUpon>viewmores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin_1\viewmores.aspx.designer.cs">
+      <DependentUpon>viewmores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Data\Businesslayer.cs" />
+    <Compile Include="App_Data\Datalayer.cs" />
+    <Compile Include="Commonpage.aspx.cs">
+      <DependentUpon>Commonpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Commonpage.aspx.designer.cs">
+      <DependentUpon>Commonpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Complainform.aspx.cs">
+      <DependentUpon>Complainform.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Complainform.aspx.designer.cs">
+      <DependentUpon>Complainform.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="email33.aspx.cs">
+      <DependentUpon>email33.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="email33.aspx.designer.cs">
+      <DependentUpon>email33.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="forgot.aspx.cs">
+      <DependentUpon>forgot.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="forgot.aspx.designer.cs">
+      <DependentUpon>forgot.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ResetPassword.aspx.cs">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResetPassword.aspx.designer.cs">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Userfaculty\FacultyStudent.aspx.cs">
+      <DependentUpon>FacultyStudent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Userfaculty\FacultyStudent.aspx.designer.cs">
+      <DependentUpon>FacultyStudent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Adminmaster.Master.cs">
+      <DependentUpon>Adminmaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Adminmaster.Master.designer.cs">
+      <DependentUpon>Adminmaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Commonmaster.Master.cs">
+      <DependentUpon>Commonmaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Commonmaster.Master.designer.cs">
+      <DependentUpon>Commonmaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Userfaculty\Newcomplain.aspx.cs">
+      <DependentUpon>Newcomplain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Userfaculty\Newcomplain.aspx.designer.cs">
+      <DependentUpon>Newcomplain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Userfaculty\Viewcomplain.aspx.cs">
+      <DependentUpon>Viewcomplain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Userfaculty\Viewcomplain.aspx.designer.cs">
+      <DependentUpon>Viewcomplain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Userfaculty\Viewmore.aspx.cs">
+      <DependentUpon>Viewmore.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Userfaculty\Viewmore.aspx.designer.cs">
+      <DependentUpon>Viewmore.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>34412</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:34412/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
